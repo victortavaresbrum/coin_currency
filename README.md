@@ -1,16 +1,1 @@
-# cubos_moedas
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This currency quoting application is a tool to track the quotations of different currencies in real time. It is developed in a programming language of your choice and uses an API to obtain the quotation information. The application features a friendly and intuitive graphical interface, allowing the user to select the currencies they wish to track and view their updated quotations automatically. In addition, the source code is easy to understand and well-documented, enabling other developers to collaborate and contribute to the project. This currency quoting application is a useful resource for anyone who wants to track fluctuations in the financial market and can be found in the GitHub repository.
