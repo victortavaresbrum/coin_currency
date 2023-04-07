@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class HomeInitialState extends StatelessWidget {
-  const HomeInitialState({super.key});
+  const HomeInitialState({super.key, required this.onStartClicked});
 
+final VoidCallback onStartClicked;  
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -19,7 +20,7 @@ class HomeInitialState extends StatelessWidget {
             const SizedBox(
               height: 12,
             ),
-            OutlinedButton(onPressed: () {}, child: const Text('Iniciar'))
+            OutlinedButton(onPressed: onStartClicked, child: const Text('Iniciar'))
           ],
         ),
       ),
